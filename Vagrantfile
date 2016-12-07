@@ -23,6 +23,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         #ansible.inventory_path = "playbooks"
     end
 
+    config.vm.provision :shell, path: "install_sp.sh"
+
     config.vm.provision :shell, inline: "echo Good job, now enjoy your new vbox: http://192.168.1.2"
 
 end
