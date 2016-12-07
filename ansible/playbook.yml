@@ -6,3 +6,5 @@
    - init
    - httpd
    - php56
+   - mysql
+   - phpmyadmin
