@@ -1,0 +1,14 @@
+# file: roles/httpd/meta/main.yml
+---
+galaxy_info:
+  author: Charles Brown-Roberts
+  license: MIT
+  min_ansible_version: 2.2
+  platforms:
+    - name: Centos
+      versions:
+        - 7
+  categories:
+     - web
+dependencies: []
+#version: 0.0.0
